@@ -1,0 +1,16 @@
+Type: IPython Notebook Extension
+Compatibility: 4.x, 5.x, 6.x
+Name: grammarchecker
+Main: main.js
+Description: 'Adds a CodeMirror overlay mode for grammar checking'
+Link: README.md
+Parameters:
+- none
+# - name: grammarchecker.enable_on_load
+#   input_type: checkbox
+#   description: enable grammarchecker for all Markdown/Raw cells on notebook load
+#   default: true
+# - name: grammarchecker.add_toolbar_button
+#   input_type: checkbox
+#   description: add a toolbar button to toggle grammarchecker on and off for all Markdown/Raw cells
+#   default: true

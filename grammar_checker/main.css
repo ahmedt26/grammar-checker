@@ -1,0 +1,46 @@
+
+/* Grammar error are encoding using blue underline */
+.grammar-error {
+    text-decoration: underline blue wavy;
+}
+
+.grammar-error:hover {
+    background: #0014ff2e;
+    text-decoration: none;
+}
+
+/* Spelling errors are encoding using red underline  */
+
+.spelling-error {
+    text-decoration: underline red wavy;
+}
+
+.spelling-error:hover {
+    background: #ff00002e;
+    text-decoration: none;
+}
+
+/* Tooltip is styled to show a message of the particular error when hovering over the error with the mouse */
+
+.error-tooltip {
+    position: relative; 
+    cursor: default !important;
+}
+
+.error-tooltip:hover{
+    position: relative;
+}
+
+.error-tooltip:after {
+    content: attr(data-text);
+    transform:translateX(-50%);
+    color: black;
+    font-size: 12px;
+    display:none;
+    padding-left: 7px;
+    font-weight: normal !important;
+}
+
+.error-tooltip:hover:after {
+    display:inline;
+}

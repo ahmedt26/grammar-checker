@@ -1,0 +1,1 @@
+Project Plan 2/4: too vague, you need to specify if you are targeting JupyterLab or classic Jupyter, what interface the grammar checker provides. Consequently the weekly schedule is too vague, it should have clear milestones and there should be a clear responsibilities.
